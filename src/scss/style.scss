@@ -96,10 +96,10 @@ button {
   border: none;
   background: $prim-color;
 // background: linear-gradient(0deg, rgb(207, 70, 2) 0%, rgba(251,75,2,1) 100%);
-border-radius: 13px;
-background: linear-gradient(145deg, #2b003e, #240034);
-box-shadow:  10px 10px 20px #e7e7e858,
-             -10px -10px 20px #d9d4db4c;
+border-radius: 12px;
+background: linear-gradient(145deg, #7b00b0, #20003c);
+box-shadow:  5px 5px 6px #8d01d2,
+             -1px -1px 3px #e55502;
 }
 .btn-1:hover {
   background:#F55CC0;
@@ -196,6 +196,7 @@ box-shadow:  10px 10px 20px #e7e7e858,
 .hero-section > img {
    height: 100%;
   width: 100%;
+  margin-top: 8%;
 }
 .call2action{
 display: flex;

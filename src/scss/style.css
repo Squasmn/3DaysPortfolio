@@ -98,9 +98,9 @@ button {
   padding: 0;
   border: none;
   background: #F55CC0;
-  border-radius: 13px;
-  background: linear-gradient(145deg, #2b003e, #240034);
-  box-shadow: 10px 10px 20px rgba(231, 231, 232, 0.3450980392), -10px -10px 20px rgba(217, 212, 219, 0.2980392157);
+  border-radius: 12px;
+  background: linear-gradient(145deg, #7b00b0, #20003c);
+  box-shadow: 5px 5px 6px #8d01d2, -1px -1px 3px #e55502;
 }
 
 .btn-1:hover {
@@ -206,6 +206,7 @@ button {
 .hero-section > img {
   height: 100%;
   width: 100%;
+  margin-top: 8%;
 }
 
 .call2action {
