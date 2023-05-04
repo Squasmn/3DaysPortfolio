@@ -100,7 +100,7 @@ button {
   background: #F55CC0;
   border-radius: 13px;
   background: linear-gradient(145deg, #2b003e, #240034);
-  box-shadow: 37px 37px 74px #12001a, -37px -37px 74px #3e005a;
+  box-shadow: 10px 10px 20px rgba(231, 231, 232, 0.3450980392), -10px -10px 20px rgba(217, 212, 219, 0.2980392157);
 }
 
 .btn-1:hover {
@@ -116,7 +116,7 @@ button {
   right: 0;
   height: 2px;
   width: 0;
-  background: #f0094a;
+  background: #f7721f;
   box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1333333333);
   transition: 400ms ease all;
 }

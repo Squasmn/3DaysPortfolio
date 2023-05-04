@@ -68,7 +68,7 @@ header>img {width: 6%;
 display: flex;
 
 }
-// Buttons
+// Buttons universal styles
 button {
   margin-right: 10px;
   text-transform: uppercase;
@@ -90,7 +90,7 @@ button {
    4px 4px 5px 0px rgba(0,0,0,.1);
   outline: none;
 }
-// Rename Buttons 5->1
+// Button 1 "header buttons"
 .btn-1 {
   padding: 0;
   border: none;
@@ -98,8 +98,8 @@ button {
 // background: linear-gradient(0deg, rgb(207, 70, 2) 0%, rgba(251,75,2,1) 100%);
 border-radius: 13px;
 background: linear-gradient(145deg, #2b003e, #240034);
-box-shadow:  37px 37px 74px #12001a,
-             -37px -37px 74px #3e005a;
+box-shadow:  10px 10px 20px #e7e7e858,
+             -10px -10px 20px #d9d4db4c;
 }
 .btn-1:hover {
   background:#F55CC0;
@@ -113,7 +113,7 @@ box-shadow:  37px 37px 74px #12001a,
   right:0;
   height:2px;
   width:0;
-  background: #f0094a;
+  background: $quad-color;
   box-shadow:
    -1px -1px 5px 0px #fff,
    7px 7px 20px 0px #0003,
@@ -131,7 +131,7 @@ box-shadow:  37px 37px 74px #12001a,
   width:100%;
   transition:800ms ease all;
 }
-// Rename Buttons 9->2
+// Button 2 "learn more"
 .btn-2 {
   border: none;
   transition: all 0.3s ease;
