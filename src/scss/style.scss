@@ -205,6 +205,7 @@ box-shadow:  5px 5px 6px #8d01d2,
 display: flex;
 justify-content: center;
 position: relative;
+margin-top: 1%;
 }
 .footer{
   display: flex;
@@ -233,3 +234,6 @@ background: linear-gradient(90deg, rgba(85,0,109,1) 0%, rgba(245,92,192,0.527048
     
     
 }
+hr {border: 1px solid $quad-color;
+width: 30%;
+margin: auto;}

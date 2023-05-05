@@ -214,6 +214,7 @@ button {
   display: flex;
   justify-content: center;
   position: relative;
+  margin-top: 1%;
 }
 
 .footer {
@@ -239,6 +240,11 @@ button {
   .header-nav-list {
     flex-direction: column;
   }
+}
+hr {
+  border: 1px solid #f7721f;
+  width: 30%;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
