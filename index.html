@@ -15,6 +15,7 @@
   </head>
 
   <body>
+    <div id="top"></div>
     <!-- header -->
     <header class="header">
       <img
@@ -26,18 +27,16 @@
       <nav class="header-nav">
         <ul class="header-nav-list">
           <li class="header-nav-list-item">
-            <a href="index.html">
-              <button class="custom-btn btn-1">Home</button></a
-            >
+            <a href="#top"> <button class="custom-btn btn-1">Top</button></a>
           </li>
           <li class="header-nav-list-item">
-            <a href="about.html"
-              ><button class="custom-btn btn-1">About</button></a
+            <a href="#discover"
+              ><button class="custom-btn btn-1">discover</button></a
             >
           </li>
           <li class="header-nav-list-item">
             <a href="contact.html"
-              ><button class="custom-btn btn-1">Contact</button></a
+              ><button class="custom-btn btn-1 contactnone">Contact</button></a
             >
           </li>
         </ul>
@@ -47,18 +46,61 @@
     <main>
       <!-- Hero Section -->
       <div class="hero-section">
-        <img src="src/img/logos2/cover_cropped.png" alt="" />
+        <img
+          src="src/img/logos2/cover_cropped.png"
+          alt="Logo of Developer Dav.Dev"
+        />
         <hr />
       </div>
       <div class="call2action">
-        <button class="custom-btn btn-2">learn more</button>
+        <a href="#discover">
+          <button class="custom-btn btn-2">discover</button></a
+        >
       </div>
+      <div id="discover"></div>
       <!-- Grid Main Section -->
-      <section class="grid-container"></section>
+      <section class="main-container">
+        <h1>Hello World!</h1>
+        <div class="grid-container">
+          <h2>welcome to my portfolio - feel free to explore my projects</h2>
+          <div class="obj1">
+            <img src="src/img/previews/preview1.PNG" alt="preview image 1" />
+          </div>
+          <div class="description1">
+            <p>
+              <h3>.1st-project{</h3>after 2 weeks of learning html and css basics, this was created as a final project of the DCI orientation course. 
+              Central element is a flexbox img gallery with a hover effect as a means of navigation. It was a challenging but fun project to work on as I was able to put the puzzle of what I had previously been presented together. Looking back I would have liked to clear up the code a bit more since I left the project with the feeling of having created a huge mess.
+              The topic presented in this simple info page is the country french-guyane, which i visited in 2019 for a short internship at the European Space Agency ESA. After successfully completing the orientation course, I was accepted into the full year course at DCI where i now proceed my journey to become a Fullstack Web Developer.}
+            </p>
+          </div>
+          <div class="obj2">
+            <img src="src/img/previews/preview2.PNG" alt="preview image 2" />
+          </div>
+          <div class="description2">
+            <p>
+              <h3>.2nd-project{</h3>
+             A small side project in the early days of the DCI full year course. I simply wanted to play around with hover effects and transitions some more. Also it was first meant to be part of a bigger group-project with my classmates aiming to create a website as a collection of useful resources for the course.
+             I uncluded logos of the first 3 Cheat Sheets we had been presented with in the course as my team was initially supposed to build a landing page. Unfortunately the group didn't pursue the project any further which is why I used my draft to simply link some of the ressources I had already collected and used for my own learning process. In addition it was the first project i deployed on github pages.}
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- footer -->
     <footer class="footer">
-      <button class="custom-btn btn-3">contact me!</button>
+      <button class="custom-btn btn-3">contact</button>
+      <div class="copyright">
+        <img
+          class="barcode"
+          src="src/img/Icons/barcode-solid.svg"
+          alt="barcode icon"
+        />
+        <p>
+          <span class="davdev">Dav.Dev</span> 2023
+          <i class="fa-regular fa-copyright"></i>
+        </p>
+        <p>All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
