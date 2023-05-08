@@ -170,7 +170,6 @@ button {
 }
 
 .btn-3 {
-  margin-left: 100px;
   display: flex;
   align-items: center;
   width: auto;
@@ -289,6 +288,10 @@ hr {
   grid: f;
 }
 
+.description > p {
+  text-align: justify;
+}
+
 .grid-container > div > a > img {
   width: 40vw;
   border-radius: 9px;
@@ -326,6 +329,7 @@ hr {
 .section-skills > div > h3 {
   margin-left: 1rem;
   margin-top: 1rem;
+  margin-right: 1rem;
 }
 
 .card-container {
@@ -337,11 +341,11 @@ hr {
   margin-top: 5%;
 }
 .card-container .card {
-  width: 190px;
-  height: 254px;
+  width: 15rem;
+  height: 18rem;
   background: linear-gradient(135deg, #ff85ec 0%, #84ff98 100%);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 8px 8px 16px #060008, -8px -8px 16px #3b0056;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -527,6 +531,9 @@ a {
   .btn-1 {
     transform: scale(0.6);
     margin: 5px;
+  }
+  .btn-3 {
+    transform: scale(0.8);
   }
   .header-nav-list {
     display: inline;
