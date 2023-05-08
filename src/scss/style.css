@@ -66,17 +66,21 @@ h5 {
   width: 100%;
   z-index: 999;
 }
-.header .header-logo {
+
+.header-logo {
   align-self: flex-start;
 }
-.header .header-nav-list {
+
+.header-nav-list {
   list-style: none;
   display: flex;
 }
-.header .header-nav > label {
+
+.header-nav > label {
   display: none;
 }
-.header .header-nav > input {
+
+.header-nav > input {
   display: none;
 }
 

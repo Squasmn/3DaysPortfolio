@@ -79,21 +79,19 @@ h5 {
   position: fixed;
   width: 100%;
   z-index: 999;
-
-  .header-logo {
-    align-self: flex-start;
-  }
-  .header-nav-list {
-    list-style: none;
-    display: flex;
-  }
-
-  .header-nav > label {
-    display: none;
-  }
-  .header-nav > input {
-    display: none;
-  }
+}
+.header-logo {
+  align-self: flex-start;
+}
+.header-nav-list {
+  list-style: none;
+  display: flex;
+}
+.header-nav > label {
+  display: none;
+}
+.header-nav > input {
+  display: none;
 }
 header > img {
   width: 6%;
@@ -514,6 +512,7 @@ hr {
 a {
   text-decoration: none;
 }
+
 @media (min-width: 1644px) {
   .description1,
   .description2,
