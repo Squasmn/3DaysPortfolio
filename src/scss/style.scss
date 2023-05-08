@@ -30,7 +30,6 @@ h2,
 h3,
 h4,
 h5 {
-  // margin: 3rem 0 1.38rem;
   font-weight: 400;
   line-height: 1.3;
 }
@@ -95,7 +94,13 @@ header > img {
   list-style: none;
   display: flex;
 }
-// Buttons universal styles
+
+.header-nav > label {
+  display: none;
+}
+.header-nav > input {
+  display: none;
+}
 button {
   text-transform: uppercase;
   font-size: 1.25rem;
@@ -117,8 +122,8 @@ button {
 // Button 1 "header buttons"
 .btn-1 {
   margin-right: 30px;
-  width: 150px;
-  height: 50px;
+  width: 120px;
+  height: 40px;
   padding: 0;
   border: none;
   background: $prim-color;
@@ -536,25 +541,50 @@ hr {
     transform: scale(0.6);
     margin: 5px;
   }
-  .cards {
-    scale: 1.5;
-  }
+
   .header-nav-list {
-    flex-direction: column;
+    display: inline;
   }
-  .contactnone {
-    display: none;
-  }
+
   .hero-section > img {
     margin-top: 25%;
   }
   .footer {
-    font-size: 50%;
+    font-size: 60%;
   }
   .barcode {
     display: none;
   }
   .contact-container1 {
     padding-top: 40%;
+  }
+  // hotfix
+  .header-nav ul {
+    display: none;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    background-color: $sec-color;
+  }
+  .header-nav i {
+    margin-right: 1rem;
+  }
+  .header-nav ul li {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .header-nav > label {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+  }
+
+  #menu-toggle:checked ~ ul {
+    display: flex;
+    flex-direction: column;
   }
 }
