@@ -66,28 +66,24 @@ h5 {
   width: 100%;
   z-index: 999;
 }
-
-.header-logo {
+.header .header-logo {
   align-self: flex-start;
+}
+.header .header-nav-list {
+  list-style: none;
+  display: flex;
+}
+.header .header-nav > label {
+  display: none;
+}
+.header .header-nav > input {
+  display: none;
 }
 
 header > img {
   width: 6%;
   min-width: 100px;
   margin: 2rem;
-}
-
-.header-nav-list {
-  list-style: none;
-  display: flex;
-}
-
-.header-nav > label {
-  display: none;
-}
-
-.header-nav > input {
-  display: none;
 }
 
 button {
