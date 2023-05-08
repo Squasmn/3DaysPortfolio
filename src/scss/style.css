@@ -415,7 +415,7 @@ hr {
   display: flex;
   flex-direction: column;
   border-radius: 9px;
-  box-shadow: inset 30px 30px 59px #1a0026, inset -30px -30px 59px #36004e;
+  box-shadow: inset 30px 30px 59px #55006d, inset -30px -30px 59px #36004e;
 }
 
 .contact-card:hover {
@@ -502,9 +502,14 @@ hr {
   transition: 1s;
 }
 
+a {
+  text-decoration: none;
+}
+
 @media (min-width: 1644px) {
   .description1,
-  .description2 {
+  .description2,
+  .description3 {
     font-size: 1.25rem;
   }
 }
